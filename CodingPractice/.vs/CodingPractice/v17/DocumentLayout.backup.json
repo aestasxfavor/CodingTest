@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DPC\\Desktop\\CodingTest\\CodingPractice\\",
+  "WorkspaceRootPath": "D:\\CodingTest\\CodingPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED57CAB-8C4B-4323-B973-1D8179B6BAA8}|CodingPractice\\CodingPractice.vcxproj|C:\\Users\\DPC\\Desktop\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7ED57CAB-8C4B-4323-B973-1D8179B6BAA8}|CodingPractice\\CodingPractice.vcxproj|D:\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7ED57CAB-8C4B-4323-B973-1D8179B6BAA8}|CodingPractice\\CodingPractice.vcxproj|solutionrelative:CodingPractice\\CodingPractice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CodingPractice.cpp",
-              "DocumentMoniker": "C:\\Users\\DPC\\Desktop\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp",
+              "DocumentMoniker": "D:\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp",
               "RelativeDocumentMoniker": "CodingPractice\\CodingPractice.cpp",
-              "ToolTip": "C:\\Users\\DPC\\Desktop\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp",
+              "ToolTip": "D:\\CodingTest\\CodingPractice\\CodingPractice\\CodingPractice.cpp",
               "RelativeToolTip": "CodingPractice\\CodingPractice.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-14T11:33:03.522Z",
               "EditorCaption": ""
