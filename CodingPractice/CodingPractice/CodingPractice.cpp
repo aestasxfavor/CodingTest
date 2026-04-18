@@ -185,8 +185,59 @@ else
 */
 #pragma endregion
 
+#pragma region Coding Test 2026-04-18
+/*
+* 백준 2884번 알람 시계
+	int h;	// 시간
+	int m;	// 분
+
+	cin >> h >> m;
+
+	// 시간이 자정이고 분이 45분보다 작을 때
+	if(h == 0 && m < 45)
+	{
+		h = 23;
+		m = m + 15;
+	}
+	// 분이 45분보다 작을 때
+	else if (m < 45)
+	{
+		h = h - 1;
+		m = m + 15;
+	}
+	// 분이 45분보다 클 때
+	else
+	{
+		m = m - 45;
+	}
+
+	cout << h << " " << m << endl;
+*/
+
+/*
+* 백준 2525번 오븐 시계
+int a, b, c;
+	cin >> a >> b;		// a: 시간, b: 분 1시간 => 60분
+	cin >> c;			// c: 요리하는 데 필요한 시간(분)
+
+	int t = a * 60 + b + c;
+	if (t >= 1440)
+	{
+		t = t - 1440;
+		a = t / 60;		// 시간 = 전체 시간(분) / 60
+		b = t % 60;		// 분 = 전체 시간(분) % 60
+	}
+	else
+	{
+		a = t / 60;
+		b = t % 60;
+	}
+
+	cout << a << " " << b << endl;
+*/
+#pragma endregion
+
 
 
 	
-
 }
