@@ -237,7 +237,18 @@ int a, b, c;
 */
 #pragma endregion
 
+#pragma region Coding Test 2026-04-20
+/*
+* 코드업 1008 번 유니코드
+cout << "\u250c" << "\u252c" << "\u2510" << endl;
+
+cout << "\u251c" << "\u253c" << "\u2524" << endl;
+
+cout << "\u2514" << "\u2534" << "\u2518" << endl;
+*/
+#pragma endregion
 
 
+	
 	
 }
