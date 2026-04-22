@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include<iomanip>
 using namespace std;
 
 int main()
@@ -248,7 +249,37 @@ cout << "\u2514" << "\u2534" << "\u2518" << endl;
 */
 #pragma endregion
 
+#pragma region Coding Test 2026-04-22
+/*
+* 코드업 1012번 실수 그대로 출력하기
+float a;
+cin >> a;
+cout << fixed;
+cout << a << setprecision(6) << endl;
+*/
 
-	
-	
+/*
+* 코드업 1013번 정수 2개 입력받아 그대로 출력하기
+int a, b;
+cin >> a >> b;
+cout << a << " " << b;
+*/
+
+/*
+* 코드업 1014번 문자 2개 입력받아 순서 바꿔 출력하기
+char a, b;
+cin >> a >> b;
+cout << b << " " << a;
+*/
+
+/*
+* 코드업 1015번 소수점 둘째 자리 까지 출력하기
+float a;
+cin >> a;
+cout << fixed;
+cout << setprecision(2) << a << endl;
+
+*/
+#pragma endregion
+
 }
