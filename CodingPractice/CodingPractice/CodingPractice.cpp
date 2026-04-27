@@ -1,5 +1,6 @@
 ﻿#include <iostream>
-#include<iomanip>
+#include <iomanip>
+
 using namespace std;
 
 int main()
@@ -281,5 +282,29 @@ cout << setprecision(2) << a << endl;
 
 */
 #pragma endregion
+
+#pragma region Coding Test 2026-04-27
+
+/*
+* 코드업 1017번
+int a;
+cin >> a;
+cout << a << " " << a << " " << a << endl;
+*/
+
+/*
+* 코드업 1019번
+int y, m, d;
+char dot;
+
+cin >> y >> dot >> m >> dot >> d;
+cout << setfill('0')
+<< setw(4) << y << '.'
+<< setw(2) << m << '.'
+<< setw(2) << d;
+*/
+
+#pragma endregion
+
 
 }
