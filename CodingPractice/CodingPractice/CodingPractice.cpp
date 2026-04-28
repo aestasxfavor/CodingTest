@@ -306,5 +306,20 @@ cout << setfill('0')
 
 #pragma endregion
 
+#pragma region Coding Test 2026-04-28
+
+/*
+* 프로그래머스 0레벨 입문 문제
+int a, b;
+
+cin >> a >> b;
+
+cout << a + b << endl;
+
+return 0;
+*/
+#pragma endregion
+
+
 
 }
