@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -320,6 +321,21 @@ return 0;
 */
 #pragma endregion
 
+#pragma region Coding Test 2026-05-07
+/*
+* 코드업 1020번 주민등록번호
+string num;
+	cin >> num;
 
+	for (int i = 0; i < num.length(); i++)
+	{
+		if (num[i] != '-')
+		{
+			cout << num[i];
+		}
+	}
+*/
+#pragma endregion
 
+	
 }
