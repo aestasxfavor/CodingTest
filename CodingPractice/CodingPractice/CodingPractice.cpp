@@ -337,5 +337,28 @@ string num;
 */
 #pragma endregion
 
+#pragma region  Coding Test 2026-05-11
+/*
+* 코드업 1021번
+*char data[30] = "";
+
+cin >> data;
+
+cout << data << endl;
+*/
+
+/*
+* 코드업 1022번
+string str;
+
+// c++에서 공백을 포함하는 문자열을 출력할 땐 getline 함수를 사용할 것
+getline(cin, str);
+cout << str << endl;
+*/
+#pragma endregion
+
+
+
+
 	
 }
