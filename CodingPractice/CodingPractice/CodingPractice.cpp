@@ -357,8 +357,13 @@ cout << str << endl;
 */
 #pragma endregion
 
+	int a, b;
+	cin >> a >> b;
+
+	int sum = (a * 1000) / b;
+
+	cout << sum << endl;
 
 
 
-	
 }
