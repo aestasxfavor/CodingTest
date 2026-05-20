@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <iomanip>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -357,13 +358,75 @@ cout << str << endl;
 */
 #pragma endregion
 
-	int a, b;
-	cin >> a >> b;
+#pragma region Coding Test 2026-05-19
+/*
+ 두수의 나눗셈
+ int a, b;
+ cin >> a >> b;
 
-	int sum = (a * 1000) / b;
+ int sum = (a * 1000) / b;
 
-	cout << sum << endl;
+ cout << sum << endl;
+*/
+#pragma endregion
 
+#pragma region Coding Test 2026-05-20
+/*
+* 프로그래머스 배열 만들기 1
+* vector<int> solution(int n, int k) 
+{
+    vector<int> answer;
+    
+    for(int i = 1; i <= n; i++)
+    {
+        if(i % k == 0)
+        {
+            answer.push_back(i);
+        }
+    }
+    return answer;
+}
+*/
+
+/*
+* 프로그래머스 - 배열만들기2
+* vector<int> solution(int l, int r)
+{
+	vector<int> answer;
+
+	for (int i = l; i <= r; i++)
+	{
+		string num = to_string(i);
+
+		bool isRight = true;
+
+		for (int j = 0; j < num.size(); j++)
+		{
+			if (num[j] != '0' && num[j] != '5')
+			{
+				isRight = false;
+				break;
+			}
+		}
+
+		if (isRight)
+		{
+			answer.push_back(i);
+		}
+	}
+
+
+	if (answer.empty())
+	{
+		answer.push_back(-1);
+	}
+
+	return answer;
+
+}
+
+*/
+#pragma endregion
 
 
 }
